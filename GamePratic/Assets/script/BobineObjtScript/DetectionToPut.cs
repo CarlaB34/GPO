@@ -13,7 +13,7 @@ public class DetectionToPut : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         
-        if(collision.gameObject.tag == "table" && pickObject!=null)
+        if(collision.gameObject.tag == "table"  && pickObject!=null)
         {
          
             pickObject.receptacle.gameObject.SetActive(true);
